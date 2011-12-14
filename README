@@ -1,0 +1,8 @@
+  Jquery Smart Fetch Plugin serves the following purposes:
+
+    Called with a URL
+    Check to see if the URL has been fetched within the last five minutes
+    If it hasn't, initiate an AJAX call and store the results locally
+    If it has, fetch it from memory
+    On success execute a success callback with the data
+    On error execute an error callback
